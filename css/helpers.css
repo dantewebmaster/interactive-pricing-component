@@ -13,3 +13,11 @@
 .align-center {
   align-items: center;
 }
+
+.text-center {
+  text-align: center;
+}
+
+.only-mobile {
+  display: none;
+}
