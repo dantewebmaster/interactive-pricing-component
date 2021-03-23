@@ -90,7 +90,7 @@ function formatMoney(value, currency = 'BRL', locale = 'pt-BR') {
   }).format(value);
 }
 
-/*
+/**
  * Event listeners
  */
 // set value  and width on input changed
@@ -104,6 +104,14 @@ rangeInput.oninput = (event) => {
   rangeValue.innerText = `${viewsNumberChanged} ${viewsTextChanged}`;
 
   handlePrice(convertedRangeValueChanged);
+};
+
+rangeInput.onmousedown = () => {
+  rangeInput.classList.add('grabbing');
+};
+
+rangeInput.onmouseup = () => {
+  rangeInput.classList.remove('grabbing');
 };
 
 discountSwitch.onchange = (event) => {

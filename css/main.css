@@ -80,8 +80,13 @@
   border: 0;
   min-width: 140px;
   border-radius: 40px;
+  cursor: pointer;
 }
 
 .attribution {
   margin-top: 8px;
+}
+
+.attribution a {
+  color: var(--heading-color);
 }
