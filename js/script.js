@@ -43,7 +43,7 @@ function handlePrice(value) {
     bigger: '$36.00',
   };
 
-  if (value < 10 && value < 50) {
+  if (value < 50) {
     return (priceElement.innerText = priceByViews['baby']);
   }
 

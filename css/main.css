@@ -1,0 +1,87 @@
+.price-box {
+  background: var(--price-background);
+  max-width: 560px;
+  margin: 0 auto;
+  border-radius: 16px;
+  box-shadow: 16px 16px 32px #f1f1f1;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+.page-views {
+  text-transform: uppercase;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.price-month {
+  font-size: 40px;
+  font-weight: 800;
+  color: var(--heading-color);
+}
+
+.price-month small {
+  color: var(--text);
+  font-size: 14px;
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.billing-plan {
+  margin-right: 24px;
+  font-size: 12px;
+}
+
+.billing-plan p {
+  color: var(--text);
+}
+
+.billing-plan .switch {
+  margin: 0 16px;
+}
+
+.billing-plan .discount-badge {
+  background: var(--discount-background);
+  color: var(--discount-text);
+  border-radius: 20px;
+  padding: 2px 4px;
+  margin-left: 8px;
+}
+
+.divider {
+  background: #f1f1f1;
+  height: 1px;
+  border: 0;
+}
+
+.call-to-action {
+  padding: 40px;
+}
+
+.checklist {
+  margin-left: 24px;
+}
+
+.checklist li {
+  color: var(--text);
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 12px;
+  padding-left: 8px;
+  list-style-image: url('../images/icon-check.svg');
+}
+
+.button {
+  background: var(--call-to-action-background);
+  color: var(--call-to-action-text);
+  height: 40px;
+  border: 0;
+  min-width: 140px;
+  border-radius: 40px;
+}
+
+.attribution {
+  margin-top: 8px;
+}
